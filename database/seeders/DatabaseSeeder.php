@@ -32,6 +32,6 @@ class DatabaseSeeder extends Seeder
         foreach($categories as $category){
             Category::create(['name' => $category]);
         }
-        Post::factory(10)->create();
+        Post::factory(50)->create();
     }
 }
